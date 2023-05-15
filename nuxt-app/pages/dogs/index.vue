@@ -1,13 +1,7 @@
 <template>
     <h1>All about dogs</h1>
 
-    <ul>
-        <li v-for="dog in breeds">
-            <NuxtLink :to="`/dogs/${dog.id}`">
-                {{ dog.attributes.name }}
-            </NuxtLink>
-        </li>
-    </ul>
+    <DogList :dogs="breeds" />
 </template>
 
 <script setup>

@@ -4,14 +4,11 @@
         <nav>
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="/hello">Hello</NuxtLink>
+            <NuxtLink to="/guesser">Play Guesser</NuxtLink>
             <NuxtLink to="/dogs">All about dogs</NuxtLink>
         </nav>
         <NuxtPage />
     </div>
 </template>
 
-<style>
-nav > a {
-    padding: 1rem;
-}
-</style>
+<style></style>

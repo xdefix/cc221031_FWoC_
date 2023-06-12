@@ -14,6 +14,10 @@
     </div>
 </template>
 
+<script setup>
+const store = useGuesserStore();
+</script>
+
 <style>
 nav[role='main'] > a {
     @apply mr-4 p-2;

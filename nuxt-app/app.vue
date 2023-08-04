@@ -7,6 +7,7 @@
             <NuxtLink to="/soundboard">Soundboard</NuxtLink>
             <NuxtLink to="/guesser">Play Guesser</NuxtLink>
             <NuxtLink to="/dogs">All about dogs</NuxtLink>
+            <NuxtLink to="/mygame">Tic Tac Toe</NuxtLink>
         </nav>
         <div class="py-4">
             <NuxtPage />
